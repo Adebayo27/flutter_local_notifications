@@ -9,7 +9,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_local_notifications_platform_interface: #^7.0.0
-    path: ../flutter_local_notifications_platform_interface
+    git:
+      url: git@github.com:followthemoney1/flutter_local_notifications.git
+      path: flutter_local_notifications_platform_interface
   path: ^1.8.0
   xdg_directories: ">=0.2.0+1 <2.0.0"
 
